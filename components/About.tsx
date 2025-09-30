@@ -3,11 +3,12 @@ import { useSiteTexts } from '@/hooks/useSiteTexts';
 
 export default function About() {
   const { getText } = useSiteTexts();
+  
   const stats = [
-    { icon: Award, number: '50+', label: 'Projetos Concluídos' },
-    { icon: Users, number: '30+', label: 'Clientes Satisfeitos' },
-    { icon: Clock, number: '5+', label: 'Anos de Experiência' },
-    { icon: Star, number: '4.9', label: 'Avaliação Média' }
+    { icon: Award, number: getText('about', 'stat_1_number', '50+'), label: getText('about', 'stat_1_label', 'Projetos Concluídos') },
+    { icon: Users, number: getText('about', 'stat_2_number', '30+'), label: getText('about', 'stat_2_label', 'Clientes Satisfeitos') },
+    { icon: Clock, number: getText('about', 'stat_3_number', '5+'), label: getText('about', 'stat_3_label', 'Anos de Experiência') },
+    { icon: Star, number: getText('about', 'stat_4_number', '4.9'), label: getText('about', 'stat_4_label', 'Avaliação Média') }
   ];
 
   return (

@@ -37,13 +37,27 @@ export async function initializeDatabase() {
       { section: 'hero', key: 'title_main', content: 'Videomaker' },
       { section: 'hero', key: 'title_subtitle', content: '& Mentor Audiovisual' },
       { section: 'hero', key: 'description', content: 'Transformo ideias em histórias visuais impactantes que conectam, emocionam e geram resultados' },
+      
       { section: 'about', key: 'title', content: 'Sobre' },
       { section: 'about', key: 'description_1', content: 'Sou um profissional apaixonado pela arte de contar histórias através do audiovisual. Como editor de vídeo, videomaker e mentor, dedico-me a criar conteúdo que não apenas informa, mas emociona e inspira ação.' },
       { section: 'about', key: 'description_2', content: 'Minha experiência abrange desde projetos corporativos até conteúdos criativos para redes sociais, sempre com foco na qualidade técnica e na narrativa envolvente. Também mentoreio novos talentos na área audiovisual, compartilhando conhecimento e técnicas avançadas.' },
+      
+      // Stats for the About section
+      { section: 'about', key: 'stat_1_number', content: '50+' },
+      { section: 'about', key: 'stat_1_label', content: 'Projetos Concluídos' },
+      { section: 'about', key: 'stat_2_number', content: '30+' },
+      { section: 'about', key: 'stat_2_label', content: 'Clientes Satisfeitos' },
+      { section: 'about', key: 'stat_3_number', content: '5+' },
+      { section: 'about', key: 'stat_3_label', content: 'Anos de Experiência' },
+      { section: 'about', key: 'stat_4_number', content: '4.9' },
+      { section: 'about', key: 'stat_4_label', content: 'Avaliação Média' },
+
       { section: 'projects', key: 'title', content: 'Meus' },
       { section: 'projects', key: 'description', content: 'Uma seleção dos meus trabalhos mais recentes, demonstrando versatilidade e qualidade técnica em diferentes formatos audiovisuais' },
+      
       { section: 'services', key: 'title', content: 'Meus' },
       { section: 'services', key: 'description', content: 'Soluções completas em produção audiovisual para empresas, criadores de conteúdo e profissionais que buscam resultados excepcionais' },
+      
       { section: 'contact', key: 'title', content: 'Vamos' },
       { section: 'contact', key: 'description', content: 'Tem um projeto em mente? Quer saber mais sobre meus serviços? Entre em contato e vamos criar algo incrível juntos!' },
       { section: 'contact', key: 'email', content: 'contato@victoroliveira.com' },
