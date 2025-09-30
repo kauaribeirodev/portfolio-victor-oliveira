@@ -18,7 +18,7 @@ export default function Footer() {
               Videomaker & Mentor Audiovisual
             </p>
             <p className="text-gray-500 text-sm mt-2">
-              © 2024 Victor Oliveira. Todos os direitos reservados.
+              © 2025 Victor Oliveira. Todos os direitos reservados.
             </p>
           </div>
 
@@ -55,7 +55,15 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="text-center">
             <p className="text-gray-500 text-sm flex items-center justify-center gap-2">
-              Feito com <Heart className="w-4 h-4 text-red-500" fill="currentColor" /> para transformar ideias em histórias visuais
+              Feito por 
+              <a 
+                href="https://www.instagram.com/pixelarsites" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-purple-400 hover:text-purple-300 transition-colors font-semibold"
+              >
+                PixelarSites
+              </a>
             </p>
           </div>
         </div>
