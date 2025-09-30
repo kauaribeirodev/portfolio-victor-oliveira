@@ -11,7 +11,7 @@ export default function Contact() {
   ];
 
   const socialLinks = [
-    { icon: Instagram, href: '#', label: 'Instagram' },
+    { icon: Instagram, href: 'https://www.instagram.com/eucauanv/', label: 'Instagram' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/victor-oliveira-aba528268/', label: 'LinkedIn' }
   ];
 
