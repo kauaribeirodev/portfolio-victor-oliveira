@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Instagram, Linkedin, Youtube } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, Linkedin } from 'lucide-react';
 import { useSiteTexts } from '@/hooks/useSiteTexts';
 
 export default function Contact() {
@@ -12,8 +12,7 @@ export default function Contact() {
 
   const socialLinks = [
     { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Youtube, href: '#', label: 'YouTube' }
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/victor-oliveira-aba528268/', label: 'LinkedIn' }
   ];
 
   return (
@@ -74,6 +73,8 @@ export default function Contact() {
                     <a
                       key={index}
                       href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 transition-all duration-300 group"
                       aria-label={social.label}
                     >
